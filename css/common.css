@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  
+}
+
+h2{
+  margin: 0px;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+input{
+  border-radius: 4px;
+border: 1px solid #808080;
+width: 360px;
+height: 40px;
+}
+
+input:hover{
+  border-radius: 4px;
+border: 1px solid #000;
+}
+
+/* ================================ */
+/* task-01 */
+
+.categories{
+  display:flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.block{
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  background-color: #F6F6FE;
+}
+
+.block-item{
+  border-radius: 4px;
+border: 1px solid #808080;
+margin-bottom: 8px;
+padding: 8px 0px 8px 8px;
+}
+
+.item-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+/* ================================ */
+/* task-2 */
+
+
+img{
+  width: 360px;
+  height: 300px;
+}
+
+.gallery{
+
+  display: flex;
+flex-wrap: wrap;
+gap: 48px;
+flex-direction:column;
+justify-content: center;
+align-items: flex-start;
+height: 848px;
+}
+
+/* ================================ */
+/* task-3 */
+
+
+/* ================================ */
+/* task-4 */
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.boxPassword{
+  margin-bottom: 16px;
+}
+
+.btn-login{
+border-radius: 8px;
+background: #4E75FF;
+padding: 8px 16px;
+color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.64px;
+border:none;
+}
+
+.btn-login:hover{
+  border-radius: 8px;
+  background: #6C8CFF;
+  
+}
+
+/* ================================ */
+/* task-5 */
+
+.change-color{
+  border-radius: 8px;
+  background: #4E75FF;
+  padding: 8px 16px;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  border:none;
+}
+
+.change-color:hover{
+  border-radius: 8px;
+  background: #6C8CFF;
+}
+
