@@ -28,16 +28,19 @@ const images = [
   },
 ];
 
+
 const galleryList = document.querySelector('.gallery');
+const fragment = document.createDocumentFragment();
 
 images.forEach((imageData) => {
+  const listItem = document.createElement('li');
+  const imgElement = document.createElement('img');
 
-const listItem = document.createElement('li');
-const imgElement = document.createElement('img');
+  imgElement.src = imageData.url;
+  imgElement.alt = imageData.alt;
 
-imgElement.src = imageData.url;
-imgElement.alt = imageData.alt;
-
-listItem.appendChild(imgElement);
-galleryList.appendChild(listItem);
+  listItem.appendChild(imgElement);
+  fragment.appendChild(listItem);
 });
+
+galleryList.appendChild(fragment);
